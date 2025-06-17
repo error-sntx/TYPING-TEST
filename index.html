@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Typing Test</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark">
+  <div class="top-bar">
+    <div class="top-left"><span id="greetingText">Good Morning</span></div>
+    <div class="top-center">TYPING TEST</div>
+    <div class="top-right">
+      <button class="top-btn" id="themeToggle">Theme</button>
+    </div>
+  </div>
+
+  <hr class="divider" />
+  <div class="progress-bar" id="progressBar"></div>
+
+  <div class="accessibility-bar">
+    <div id="wordCounter">0 / 30</div>
+    <div class="pipe">|</div>
+    <div class="length-options">
+      <button class="length-btn" data-length="10">10</button>
+      <button class="length-btn" data-length="30">30</button>
+      <button class="length-btn" data-length="50">50</button>
+      <input type="number" id="customLength" placeholder="Custom" />
+    </div>
+    <div class="pipe">|</div>
+    <div class="restart-timer">
+      <button id="restartBtn">Restart</button>
+      <button id="endBtn">End</button>
+      <span class="pipe">|</span>
+      <span class="timer" id="timer">00:00</span>
+    </div>
+  </div>
+
+  <div class="typing-area">
+    <div class="text-display" id="textDisplay" tabindex="0"></div>
+  </div>
+
+  <div class="results" id="results"></div>
+
+  <div class="afk-overlay" id="afkOverlay">
+    <div class="afk-message">AFK DETECTED!<br/>Press any key to continue...</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
