@@ -13,8 +13,8 @@ body {
 
 /* Light & Dark Theme */
 body.light {
-    background-color: #bcecfa;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 body.dark {
