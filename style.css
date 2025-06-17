@@ -14,7 +14,7 @@ body {
 /* Light & Dark Theme */
 body.light {
     background-color: #bcecfa;
-    color: #000000;
+    color: #ffffff;
 }
 
 body.dark {
